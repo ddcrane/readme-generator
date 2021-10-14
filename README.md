@@ -1,9 +1,9 @@
-# bum
-  ![GitHub license](https://img.shields.io/badge/license-Boost-blue.svg)
+# The Zelda Fan Club
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
   
-  sdf
+  We are big fans of the Legend of Zelda. We make fanart, have discussions, and game nights!
   
   ## Table of Contents 
   
@@ -29,15 +29,15 @@
   
   ## Usage
   
-  make stuff
+  Only for the Legend of Zelda. nothing else. There is only Zelda.
   
   ## License
 
-This project uses the Boost license.
+This project uses the MIT license.
     
   ## Contributing
   
-  only guns
+  Be nice and talk about the Legend of Zelda.
   
   ## Tests
   
@@ -49,4 +49,6 @@ This project uses the Boost license.
   
   ## Questions
   
-  If you want to reach me, you can email me at emailaddesa. You can find my repo at [username](https://github.com/username/).  
+  If you want to reach me, you can email me at ddcrane2@gmail.com. You can find my repo at [ddcrane](https://github.com/ddcrane/).  
+
+  https://watch.screencastify.com/v/2HRO5Qy6OvBlogUgFAT0 
