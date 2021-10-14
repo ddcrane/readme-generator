@@ -1,7 +1,8 @@
-// TODO: Include packages needed for this application
-const { writeToFile, copyFile } = require('./utils/generateMarkdown.js');
+// const { writeToFile, copyFile } = require('./utils/generateMarkdown.js');
+const fs = require('fs');
+const path = require('path');
 const inquirer = require('inquirer');
-const generateReadme = require('./src/page-template');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 const questions = [
@@ -58,14 +59,13 @@ const questions = [
 
 
 function writeToFile(fileName, data) {
-    return FileSystem.writeFileSync(path.join(process.cwd(), fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-
 function init() {
-    inquiry.prompt(questions).then(inquirerResponses => {
+    inquirer.prompt(questions).then(inquirerResponses => {
         console.log('Creating README...');
-        writetoFile('README.md', generateMarkdown({...inquirerResponses}));
+        writeToFile('README.md', generateMarkdown({...inquirerResponses}));
     });
 }
 
